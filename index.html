@@ -1,41 +1,8 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>NNN App - Enfermería</title>
-  <link rel="stylesheet" href="estilos.css" />
-</head>
-<body>
-  <header>
-    <h1>🩺 NNN App - Diagnósticos de Enfermería</h1>
-    <nav>
-      <button onclick="mostrarSeccion('nanda')">NANDA</button>
-      <button onclick="mostrarSeccion('noc')">NOC</button>
-      <button onclick="mostrarSeccion('nic')">NIC</button>
-    </nav>
-  </header>
-
-  <main>
-    <section id="nanda" class="seccion">
-      <h2>Diagnósticos NANDA</h2>
-      <input type="text" placeholder="Buscar diagnóstico..." oninput="buscar('nanda', this.value)">
-      <ul id="lista-nanda"></ul>
-    </section>
-
-    <section id="noc" class="seccion" style="display: none;">
-      <h2>Resultados NOC</h2>
-      <input type="text" placeholder="Buscar resultado..." oninput="buscar('noc', this.value)">
-      <ul id="lista-noc"></ul>
-    </section>
-
-    <section id="nic" class="seccion" style="display: none;">
-      <h2>Intervenciones NIC</h2>
-      <input type="text" placeholder="Buscar intervención..." oninput="buscar('nic', this.value)">
-      <ul id="lista-nic"></ul>
-    </section>
-  </main>
-
-  <script src="script.js"></script>
-</body>
-</html>
+<header>
+  <h1>🩺 Sistema DIE – Diagnósticos de Enfermería</h1>
+  <nav>
+    <button onclick="mostrarSeccion('nanda')">DIE (NANDA)</button>
+    <button onclick="mostrarSeccion('noc')">REE (NOC)</button>
+    <button onclick="mostrarSeccion('nic')">PIE (NIC)</button>
+  </nav>
+</header>
