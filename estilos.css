@@ -30,7 +30,60 @@ nav button {
   margin: 5px;
   border-radius: 8px;
   cursor: pointer;
- .item-header {
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+nav button:hover {
+  background-color: #0056b3;
+  color: white;
+  transform: scale(1.05);
+}
+
+main {
+  padding: 30px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.seccion {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #007bff;
+}
+
+input[type="text"], select {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  transition: background 0.2s;
+}
+
+ul li:hover {
+  background-color: #f1f9ff;
+}
+
+.item-header {
   cursor: pointer;
   display: flex;
   justify-content: space-between;
