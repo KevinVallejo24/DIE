@@ -30,3 +30,18 @@ nav button {
   margin: 5px;
   border-radius: 8px;
   cursor: pointer;
+ .item-header {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-detalle {
+  display: none;
+  margin-top: 10px;
+  padding-left: 15px;
+  background: #f8f8f8;
+  border-left: 3px solid #007bff;
+  border-radius: 5px;
+}
