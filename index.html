@@ -6,3 +6,20 @@
     <button onclick="mostrarSeccion('nic')">PIE (NIC)</button>
   </nav>
 </header>
+<section id="nanda" class="seccion">
+  <h2>DIE - Diagnósticos de Enfermería (NANDA)</h2>
+  <input type="text" placeholder="Buscar diagnóstico..." oninput="buscar('nanda', this.value)">
+  <ul id="lista-nanda"></ul>
+</section>
+
+<section id="noc" class="seccion" style="display: none;">
+  <h2>REE - Resultados Esperados en Enfermería (NOC)</h2>
+  <input type="text" placeholder="Buscar resultado..." oninput="buscar('noc', this.value)">
+  <ul id="lista-noc"></ul>
+</section>
+
+<section id="nic" class="seccion" style="display: none;">
+  <h2>PIE - Plan de Intervenciones de Enfermería (NIC)</h2>
+  <input type="text" placeholder="Buscar intervención..." oninput="buscar('nic', this.value)">
+  <ul id="lista-nic"></ul>
+</section>
