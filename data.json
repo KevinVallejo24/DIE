@@ -1,1 +1,28 @@
+{
+  "nanda": [
+    {
+      "codigo": "00002",
+      "diagnostico": "Desequilibrio nutricional: ingesta inferior a las necesidades",
+      "definicion": "Ingesta insuficiente de nutrientes para satisfacer las necesidades metabólicas.",
+      "dominio": "Nutrición / Ingesta",
+      "caracteristicas": ["Disminución del peso corporal", "Fatiga"]
+    }
+  ],
+  "noc": [
+    {
+      "codigo": "0800",
+      "resultado": "Termorregulación",
+      "definicion": "Equilibrio entre la producción, la ganancia y la pérdida de calor.",
+      "indicadores": ["Temperatura cutánea aumentada"]
+    }
+  ],
+  "nic": [
+    {
+      "codigo": "0202",
+      "intervencion": "Fomento del ejercicio: estiramientos",
+      "definicion": "Facilitar ejercicios sistemáticos de estiramiento muscular lento.",
+      "actividades": ["Asesorar sobre técnicas de estiramiento adecuadas"]
+    }
+  ]
+}
 
