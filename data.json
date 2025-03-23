@@ -26,3 +26,10 @@
   ]
 }
 
+<select id="filtroDominio" onchange="buscar('nanda')">
+  <option value="">Todos los dominios</option>
+  <option value="Nutrición">Nutrición</option>
+  <option value="Seguridad">Seguridad</option>
+  <option value="Actividad/Reposo">Actividad/Reposo</option>
+  <!-- Puedes llenar esto automáticamente si lo prefieres -->
+</select>
