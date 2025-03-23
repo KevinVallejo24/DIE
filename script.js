@@ -1,22 +1,34 @@
-let datos = {};
+let data = {};
 
 fetch('data.json')
-  .then(response => response.json())
+  .then(res => res.json())
   .then(json => {
-    datos = json;
+    data = json;
+    mostrarLista('nanda');
   });
 
-function buscar() {
-  const input = document.getElementById("busqueda").value.toLowerCase();
-  const lista = document.getElementById("resultados");
-  lista.innerHTML = '';
+function mostrarLista(tipo) {
+  const ul = document.getElementById('lista-' + tipo);
+  ul.innerHTML = '';
+  data[tipo].forEach(el => {
+    const li = document.createElement('li');
+    li.textContent = `[${el.codigo}] ${el.diagnostico || el.resultado || el.intervencion}`;
+    ul.appendChild(li);
+  });
+}
 
-  datos.nanda.forEach(item => {
-    if (item.diagnostico.toLowerCase().includes(input)) {
-      const li = document.createElement("li");
-      li.textContent = `[${item.codigo}] ${item.diagnostico}`;
-      lista.appendChild(li);
+function buscar(tipo, texto) {
+  const ul = document.getElementById('lista-' + tipo);
+  ul.innerHTML = '';
+  data[tipo].forEach(el => {
+    const nombre = el.diagnostico || el.resultado || el.intervencion;
+    if (nombre.toLowerCase().includes(texto.toLowerCase())) {
+      const li = document.createElement('li');
+      li.textContent = `[${el.codigo}] ${nombre}`;
+      ul.appendChild(li);
     }
   });
 }
 
+function mostrarSeccion(id) {
+  document.querySelectorAll('.se
