@@ -4,15 +4,15 @@
       "codigo": "00002",
       "diagnostico": "Desequilibrio nutricional: ingesta inferior a las necesidades",
       "definicion": "Ingesta insuficiente de nutrientes para satisfacer las necesidades metabólicas.",
-      "dominio": "Nutrición / Ingesta",
-      "caracteristicas": ["Disminución del peso corporal", "Fatiga"]
+      "dominio": "Nutrición",
+      "caracteristicas": ["Pérdida de peso", "Fatiga"]
     }
   ],
   "noc": [
     {
       "codigo": "0800",
       "resultado": "Termorregulación",
-      "definicion": "Equilibrio entre la producción, la ganancia y la pérdida de calor.",
+      "definicion": "Equilibrio entre la producción, ganancia y pérdida de calor.",
       "indicadores": ["Temperatura cutánea aumentada"]
     }
   ],
@@ -21,16 +21,7 @@
       "codigo": "0202",
       "intervencion": "Fomento del ejercicio: estiramientos",
       "definicion": "Facilitar ejercicios sistemáticos de estiramiento muscular lento.",
-      "actividades": ["Asesorar sobre técnicas de estiramiento adecuadas"]
+      "actividades": ["Asesorar sobre técnicas de estiramiento"]
     }
-    <select id="filtroDominio" onchange="buscar('nanda')">
-  <option value="">Todos los dominios</option>
-  <option value="Nutrición">Nutrición</option>
-  <option value="Seguridad">Seguridad</option>
-  <option value="Actividad/Reposo">Actividad/Reposo</option>
-  <!-- Puedes llenar esto automáticamente si lo prefieres -->
-</select>
-
   ]
 }
-
