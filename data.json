@@ -5,7 +5,11 @@
       "diagnostico": "Desequilibrio nutricional: ingesta inferior a las necesidades",
       "definicion": "Ingesta insuficiente de nutrientes para satisfacer las necesidades metabólicas.",
       "dominio": "Nutrición",
-      "caracteristicas": ["Pérdida de peso", "Fatiga"]
+      "caracteristicas": ["Pérdida de peso", "Fatiga"],
+      "relacionados": {
+        "noc": ["0800"],
+        "nic": ["0202"]
+      }
     }
   ],
   "noc": [
