@@ -3,14 +3,21 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((response) => response.json())
     .then((data) => {
       const input = document.getElementById("busquedaInput");
+      const contenedorResultados = document.getElementById("resultados");
 
       input.addEventListener("input", () => {
-        const filtro = input.value.toLowerCase();
-        mostrarResultados(data, filtro);
+        const filtro = input.value.trim().toLowerCase();
+
+        if (filtro.length === 0) {
+          contenedorResultados.style.display = "none";
+        } else {
+          contenedorResultados.style.display = "block";
+          mostrarResultados(data, filtro);
+        }
       });
 
-      // Mostrar todos al inicio si deseas
-      mostrarResultados(data, "");
+      // Al cargar, ocultamos resultados
+      contenedorResultados.style.display = "none";
     });
 });
 
@@ -23,7 +30,7 @@ function mostrarResultados(data, filtro) {
   nocLista.innerHTML = "";
   nicLista.innerHTML = "";
 
-  // Filtrar NANDA
+  // NANDA
   const nandaResultados = data.nanda.filter((item) =>
     item.codigo.toLowerCase().includes(filtro) ||
     item.diagnostico.toLowerCase().includes(filtro) ||
@@ -40,7 +47,7 @@ function mostrarResultados(data, filtro) {
     nandaLista.innerHTML = "<li>No se encontraron diagnósticos NANDA.</li>";
   }
 
-  // Filtrar NOC
+  // NOC
   const nocResultados = data.noc.filter((item) =>
     item.codigo.toLowerCase().includes(filtro) ||
     item.resultado.toLowerCase().includes(filtro) ||
@@ -57,7 +64,7 @@ function mostrarResultados(data, filtro) {
     nocLista.innerHTML = "<li>No se encontraron resultados NOC.</li>";
   }
 
-  // Filtrar NIC
+  // NIC
   const nicResultados = data.nic.filter((item) =>
     item.codigo.toLowerCase().includes(filtro) ||
     item.intervencion.toLowerCase().includes(filtro) ||
