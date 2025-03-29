@@ -1,31 +1,2021 @@
 {
   "nanda": [
     {
-      "codigo": "00002",
-      "diagnostico": "Desequilibrio nutricional: ingesta inferior a las necesidades",
-      "definicion": "Ingesta insuficiente de nutrientes para satisfacer las necesidades metabólicas.",
-      "dominio": "Nutrición",
-      "caracteristicas": ["Pérdida de peso", "Fatiga"],
+      "codigo": "00032",
+      "diagnostico": "Patrón respiratorio ineficaz",
+      "definicion": "Insuficiencia en la inspiración y/o espiración que no proporciona una ventilación adecuada.",
+      "dominio": "3 – Eliminación e intercambio",
+      "clase": "4 – Intercambio respiratorio",
+      "caracteristicas": [
+        "Disnea",
+        "Uso de músculos accesorios",
+        "Cambios en la frecuencia respiratoria",
+        "Cianosis",
+        "Tos inefectiva"
+      ],
+      "factores_relacionados": [
+        "Obstrucción de las vías respiratorias",
+        "Secreciones excesivas",
+        "Fatiga muscular"
+      ],
       "relacionados": {
-        "noc": ["0800"],
-        "nic": ["0202"]
+        "noc": [
+          "0415",
+          "0410"
+        ],
+        "nic": [
+          "3140",
+          "3350"
+        ]
+      }
+    },
+    {
+      "codigo": "00004",
+      "diagnostico": "Riesgo de infección",
+      "definicion": "Aumento del riesgo de ser invadido por organismos patógenos.",
+      "dominio": "11 – Seguridad/protección",
+      "clase": "1 – Infección",
+      "factores_riesgo": [
+        "Procedimientos invasivos",
+        "Sistema inmunitario suprimido",
+        "Ruptura de barrera cutánea"
+      ],
+      "relacionados": {
+        "noc": [
+          "0702",
+          "0703"
+        ],
+        "nic": [
+          "6540",
+          "6550"
+        ]
+      }
+    },
+    {
+      "codigo": "00168",
+      "diagnostico": "Disposición para mejorar el manejo de la salud",
+      "definicion": "Patrón de regulación e integración de un régimen terapéutico diario para el tratamiento de una enfermedad y sus secuelas que puede ser mejorado.",
+      "dominio": "1 – Promoción de la salud",
+      "clase": "2 – Gestión de la salud",
+      "caracteristicas": [
+        "Expresa deseo de mejorar el manejo de su salud",
+        "Muestra disposición para adquirir conocimientos",
+        "Busca recursos de apoyo"
+      ],
+      "relacionados": {
+        "noc": [
+          "1612",
+          "1601"
+        ],
+        "nic": [
+          "5616",
+          "5602"
+        ]
+      }
+    },
+    {
+      "codigo": "00146",
+      "diagnostico": "Ansiedad",
+      "definicion": "Vaga sensación de malestar o amenaza acompañada por una respuesta autonómica.",
+      "dominio": "9 – Afrontamiento/Tolerancia al estrés",
+      "clase": "2 – Respuestas de afrontamiento",
+      "caracteristicas": [
+        "Inquietud",
+        "Nerviosismo",
+        "Expresión facial de preocupación",
+        "Dificultad para concentrarse"
+      ],
+      "factores_relacionados": [
+        "Cambio en el estado de salud",
+        "Estrés situacional",
+        "Factores socioeconómicos"
+      ],
+      "relacionados": {
+        "noc": [
+          "1211",
+          "1402"
+        ],
+        "nic": [
+          "5820",
+          "5230"
+        ]
+      }
+    },
+    {
+      "codigo": "00044",
+      "diagnostico": "Riesgo de deterioro de la integridad cutánea",
+      "definicion": "Riesgo de alteración en la epidermis y/o dermis.",
+      "dominio": "11 – Seguridad/protección",
+      "clase": "2 – Lesión física",
+      "factores_riesgo": [
+        "Inmovilidad",
+        "Humedad excesiva",
+        "Estado nutricional deficiente"
+      ],
+      "relacionados": {
+        "noc": [
+          "1101",
+          "1102"
+        ],
+        "nic": [
+          "3590",
+          "3540"
+        ]
       }
     }
   ],
-  "noc": [
+  "noc": [],
+  "nic": []
+}
+{
+  "nanda": [
     {
-      "codigo": "0800",
-      "resultado": "Termorregulación",
-      "definicion": "Equilibrio entre la producción, ganancia y pérdida de calor.",
-      "indicadores": ["Temperatura cutánea aumentada"]
+      "codigo": "00032",
+      "diagnostico": "Patrón respiratorio ineficaz",
+      "definicion": "Insuficiencia en la inspiración y/o espiración que no proporciona una ventilación adecuada.",
+      "dominio": "3 – Eliminación e intercambio",
+      "clase": "4 – Intercambio respiratorio",
+      "caracteristicas": [
+        "Disnea",
+        "Uso de músculos accesorios",
+        "Cambios en la frecuencia respiratoria",
+        "Cianosis",
+        "Tos inefectiva"
+      ],
+      "factores_relacionados": [
+        "Obstrucción de las vías respiratorias",
+        "Secreciones excesivas",
+        "Fatiga muscular"
+      ],
+      "relacionados": {
+        "noc": [
+          "0415",
+          "0410"
+        ],
+        "nic": [
+          "3140",
+          "3350"
+        ]
+      }
+    },
+    {
+      "codigo": "00004",
+      "diagnostico": "Riesgo de infección",
+      "definicion": "Aumento del riesgo de ser invadido por organismos patógenos.",
+      "dominio": "11 – Seguridad/protección",
+      "clase": "1 – Infección",
+      "factores_riesgo": [
+        "Procedimientos invasivos",
+        "Sistema inmunitario suprimido",
+        "Ruptura de barrera cutánea"
+      ],
+      "relacionados": {
+        "noc": [
+          "0702",
+          "0703"
+        ],
+        "nic": [
+          "6540",
+          "6550"
+        ]
+      }
+    },
+    {
+      "codigo": "00168",
+      "diagnostico": "Disposición para mejorar el manejo de la salud",
+      "definicion": "Patrón de regulación e integración de un régimen terapéutico diario para el tratamiento de una enfermedad y sus secuelas que puede ser mejorado.",
+      "dominio": "1 – Promoción de la salud",
+      "clase": "2 – Gestión de la salud",
+      "caracteristicas": [
+        "Expresa deseo de mejorar el manejo de su salud",
+        "Muestra disposición para adquirir conocimientos",
+        "Busca recursos de apoyo"
+      ],
+      "relacionados": {
+        "noc": [
+          "1612",
+          "1601"
+        ],
+        "nic": [
+          "5616",
+          "5602"
+        ]
+      }
+    },
+    {
+      "codigo": "00146",
+      "diagnostico": "Ansiedad",
+      "definicion": "Vaga sensación de malestar o amenaza acompañada por una respuesta autonómica.",
+      "dominio": "9 – Afrontamiento/Tolerancia al estrés",
+      "clase": "2 – Respuestas de afrontamiento",
+      "caracteristicas": [
+        "Inquietud",
+        "Nerviosismo",
+        "Expresión facial de preocupación",
+        "Dificultad para concentrarse"
+      ],
+      "factores_relacionados": [
+        "Cambio en el estado de salud",
+        "Estrés situacional",
+        "Factores socioeconómicos"
+      ],
+      "relacionados": {
+        "noc": [
+          "1211",
+          "1402"
+        ],
+        "nic": [
+          "5820",
+          "5230"
+        ]
+      }
+    },
+    {
+      "codigo": "00044",
+      "diagnostico": "Riesgo de deterioro de la integridad cutánea",
+      "definicion": "Riesgo de alteración en la epidermis y/o dermis.",
+      "dominio": "11 – Seguridad/protección",
+      "clase": "2 – Lesión física",
+      "factores_riesgo": [
+        "Inmovilidad",
+        "Humedad excesiva",
+        "Estado nutricional deficiente"
+      ],
+      "relacionados": {
+        "noc": [
+          "1101",
+          "1102"
+        ],
+        "nic": [
+          "3590",
+          "3540"
+        ]
+      }
+    },
+    {
+      "codigo": "00162",
+      "diagnostico": "Disposición para mejorar la nutrición",
+      "definicion": "Patrón de consumo de nutrientes que puede ser mejorado.",
+      "dominio": "1 – Promoción de la salud",
+      "clase": "2 – Nutrición",
+      "caracteristicas": [
+        "Interés en planificar dietas saludables",
+        "Deseo de mejorar los hábitos alimenticios"
+      ],
+      "relacionados": {
+        "noc": [
+          "1004",
+          "1613"
+        ],
+        "nic": [
+          "5246",
+          "5614"
+        ]
+      }
+    },
+    {
+      "codigo": "00085",
+      "diagnostico": "Deterioro de la movilidad física",
+      "definicion": "Limitación del movimiento físico independiente, intencionado, del cuerpo o de una o más extremidades.",
+      "dominio": "4 – Actividad/reposo",
+      "clase": "2 – Movimiento",
+      "caracteristicas": [
+        "Dificultad para moverse de manera independiente",
+        "Disminución de la fuerza o control muscular",
+        "Rango de movimiento limitado"
+      ],
+      "factores_relacionados": [
+        "Dolor",
+        "Debilidad",
+        "Desequilibrio"
+      ],
+      "relacionados": {
+        "noc": [
+          "0208",
+          "0210"
+        ],
+        "nic": [
+          "0221",
+          "1800"
+        ]
+      }
+    },
+    {
+      "codigo": "00007",
+      "diagnostico": "Dolor agudo",
+      "definicion": "Experiencia sensitiva y emocional desagradable, asociada a daño tisular real o potencial, de duración menor a 3 meses.",
+      "dominio": "12 – Confort",
+      "clase": "1 – Confort físico",
+      "caracteristicas": [
+        "Autoinforme de dolor",
+        "Comportamientos expresivos de dolor (gestos, quejas)",
+        "Cambios fisiológicos (frecuencia cardíaca elevada)"
+      ],
+      "factores_relacionados": [
+        "Lesión física",
+        "Procedimientos invasivos",
+        "Procesos inflamatorios"
+      ],
+      "relacionados": {
+        "noc": [
+          "2102",
+          "1605"
+        ],
+        "nic": [
+          "2210",
+          "1400"
+        ]
+      }
+    },
+    {
+      "codigo": "00047",
+      "diagnostico": "Riesgo de aspiración",
+      "definicion": "Riesgo de entrada de secreciones gastrointestinales, secreciones orofaríngeas, sólidos o líquidos en la tráquea o bronquios.",
+      "dominio": "11 – Seguridad/protección",
+      "clase": "2 – Lesión física",
+      "factores_riesgo": [
+        "Disfagia",
+        "Disminución del nivel de conciencia",
+        "Alimentación por sonda"
+      ],
+      "relacionados": {
+        "noc": [
+          "3201"
+        ],
+        "nic": [
+          "3200",
+          "1050"
+        ]
+      }
+    },
+    {
+      "codigo": "00155",
+      "diagnostico": "Déficit de autocuidado: baño/higiene",
+      "definicion": "Deterioro de la capacidad para realizar o completar las actividades de baño e higiene personal.",
+      "dominio": "4 – Actividad/reposo",
+      "clase": "5 – Autocuidado",
+      "caracteristicas": [
+        "Incapacidad para lavarse solo",
+        "Olor corporal",
+        "Higiene inadecuada"
+      ],
+      "factores_relacionados": [
+        "Discapacidad física",
+        "Fatiga",
+        "Dolor"
+      ],
+      "relacionados": {
+        "noc": [
+          "0300",
+          "0301"
+        ],
+        "nic": [
+          "1801",
+          "1800"
+        ]
+      }
+    },
+    {
+      "codigo": "00165",
+      "diagnostico": "Disposición para mejorar el sueño",
+      "definicion": "Patrón de sueño que puede ser reforzado para mejorar la salud.",
+      "dominio": "1 – Promoción de la salud",
+      "clase": "1 – Conciencia de la salud",
+      "caracteristicas": [
+        "Manifiesta intención de mejorar el descanso",
+        "Deseo de seguir estrategias saludables de sueño"
+      ],
+      "relacionados": {
+        "noc": [
+          "0004",
+          "2002"
+        ],
+        "nic": [
+          "1850",
+          "5612"
+        ]
+      }
+    },
+    {
+      "codigo": "00093",
+      "diagnostico": "Fatiga",
+      "definicion": "Sensación abrumadora y sostenida de agotamiento y disminución de la capacidad para realizar trabajo físico y mental al nivel habitual.",
+      "dominio": "4 – Actividad/reposo",
+      "clase": "1 – Energía",
+      "caracteristicas": [
+        "Verbaliza sensación de cansancio",
+        "Letargo",
+        "Dificultad para mantener actividades habituales"
+      ],
+      "factores_relacionados": [
+        "Enfermedad crónica",
+        "Estrés prolongado",
+        "Trastornos del sueño"
+      ],
+      "relacionados": {
+        "noc": [
+          "0007",
+          "0009"
+        ],
+        "nic": [
+          "1850",
+          "0180"
+        ]
+      }
+    },
+    {
+      "codigo": "00092",
+      "diagnostico": "Riesgo de intolerancia a la actividad",
+      "definicion": "Riesgo de presentar energía fisiológica o psicológica insuficiente para soportar o completar las actividades necesarias o deseadas.",
+      "dominio": "4 – Actividad/reposo",
+      "clase": "1 – Energía",
+      "factores_riesgo": [
+        "Debilidad",
+        "Hospitalización prolongada",
+        "Enfermedades agudas o crónicas"
+      ],
+      "relacionados": {
+        "noc": [
+          "0009",
+          "0200"
+        ],
+        "nic": [
+          "0180",
+          "0200"
+        ]
+      }
+    },
+    {
+      "codigo": "00051",
+      "diagnostico": "Deterioro de la comunicación verbal",
+      "definicion": "Disminución, retraso o carencia de la capacidad para recibir, procesar, transmitir y/o usar un sistema de símbolos.",
+      "dominio": "9 – Afrontamiento/tolerancia al estrés",
+      "clase": "3 – Comunicación",
+      "caracteristicas": [
+        "Dificultad para articular palabras",
+        "Incapacidad para responder adecuadamente",
+        "Ausencia o disminución del habla"
+      ],
+      "factores_relacionados": [
+        "Trastornos neurológicos",
+        "Déficits sensoriales",
+        "Barreras culturales"
+      ],
+      "relacionados": {
+        "noc": [
+          "0900",
+          "0902"
+        ],
+        "nic": [
+          "4976",
+          "4920"
+        ]
+      }
+    },
+    {
+      "codigo": "00002",
+      "diagnostico": "Desequilibrio nutricional: ingesta inferior a las necesidades",
+      "definicion": "Ingesta de nutrientes insuficiente para satisfacer las necesidades metabólicas.",
+      "dominio": "2 – Nutrición",
+      "clase": "1 – Ingesta de alimentos",
+      "caracteristicas": [
+        "Pérdida de peso no intencional",
+        "Debilidad muscular",
+        "Reporta falta de apetito"
+      ],
+      "factores_relacionados": [
+        "Dificultad para masticar o tragar",
+        "Alteración en el gusto",
+        "Estado emocional alterado"
+      ],
+      "relacionados": {
+        "noc": [
+          "1004",
+          "1008"
+        ],
+        "nic": [
+          "1100",
+          "5246"
+        ]
+      }
     }
   ],
-  "nic": [
+  "noc": [],
+  "nic": []
+}
+{
+  "nanda": [
     {
-      "codigo": "0202",
-      "intervencion": "Fomento del ejercicio: estiramientos",
-      "definicion": "Facilitar ejercicios sistemáticos de estiramiento muscular lento.",
-      "actividades": ["Asesorar sobre técnicas de estiramiento"]
+      "codigo": "00032",
+      "diagnostico": "Patrón respiratorio ineficaz",
+      "definicion": "Insuficiencia en la inspiración y/o espiración que no proporciona una ventilación adecuada.",
+      "dominio": "3 – Eliminación e intercambio",
+      "clase": "4 – Intercambio respiratorio",
+      "caracteristicas": [
+        "Disnea",
+        "Uso de músculos accesorios",
+        "Cambios en la frecuencia respiratoria",
+        "Cianosis",
+        "Tos inefectiva"
+      ],
+      "factores_relacionados": [
+        "Obstrucción de las vías respiratorias",
+        "Secreciones excesivas",
+        "Fatiga muscular"
+      ],
+      "relacionados": {
+        "noc": [
+          "0415",
+          "0410"
+        ],
+        "nic": [
+          "3140",
+          "3350"
+        ]
+      }
+    },
+    {
+      "codigo": "00004",
+      "diagnostico": "Riesgo de infección",
+      "definicion": "Aumento del riesgo de ser invadido por organismos patógenos.",
+      "dominio": "11 – Seguridad/protección",
+      "clase": "1 – Infección",
+      "factores_riesgo": [
+        "Procedimientos invasivos",
+        "Sistema inmunitario suprimido",
+        "Ruptura de barrera cutánea"
+      ],
+      "relacionados": {
+        "noc": [
+          "0702",
+          "0703"
+        ],
+        "nic": [
+          "6540",
+          "6550"
+        ]
+      }
+    },
+    {
+      "codigo": "00168",
+      "diagnostico": "Disposición para mejorar el manejo de la salud",
+      "definicion": "Patrón de regulación e integración de un régimen terapéutico diario para el tratamiento de una enfermedad y sus secuelas que puede ser mejorado.",
+      "dominio": "1 – Promoción de la salud",
+      "clase": "2 – Gestión de la salud",
+      "caracteristicas": [
+        "Expresa deseo de mejorar el manejo de su salud",
+        "Muestra disposición para adquirir conocimientos",
+        "Busca recursos de apoyo"
+      ],
+      "relacionados": {
+        "noc": [
+          "1612",
+          "1601"
+        ],
+        "nic": [
+          "5616",
+          "5602"
+        ]
+      }
+    },
+    {
+      "codigo": "00146",
+      "diagnostico": "Ansiedad",
+      "definicion": "Vaga sensación de malestar o amenaza acompañada por una respuesta autonómica.",
+      "dominio": "9 – Afrontamiento/Tolerancia al estrés",
+      "clase": "2 – Respuestas de afrontamiento",
+      "caracteristicas": [
+        "Inquietud",
+        "Nerviosismo",
+        "Expresión facial de preocupación",
+        "Dificultad para concentrarse"
+      ],
+      "factores_relacionados": [
+        "Cambio en el estado de salud",
+        "Estrés situacional",
+        "Factores socioeconómicos"
+      ],
+      "relacionados": {
+        "noc": [
+          "1211",
+          "1402"
+        ],
+        "nic": [
+          "5820",
+          "5230"
+        ]
+      }
+    },
+    {
+      "codigo": "00044",
+      "diagnostico": "Riesgo de deterioro de la integridad cutánea",
+      "definicion": "Riesgo de alteración en la epidermis y/o dermis.",
+      "dominio": "11 – Seguridad/protección",
+      "clase": "2 – Lesión física",
+      "factores_riesgo": [
+        "Inmovilidad",
+        "Humedad excesiva",
+        "Estado nutricional deficiente"
+      ],
+      "relacionados": {
+        "noc": [
+          "1101",
+          "1102"
+        ],
+        "nic": [
+          "3590",
+          "3540"
+        ]
+      }
+    },
+    {
+      "codigo": "00162",
+      "diagnostico": "Disposición para mejorar la nutrición",
+      "definicion": "Patrón de consumo de nutrientes que puede ser mejorado.",
+      "dominio": "1 – Promoción de la salud",
+      "clase": "2 – Nutrición",
+      "caracteristicas": [
+        "Interés en planificar dietas saludables",
+        "Deseo de mejorar los hábitos alimenticios"
+      ],
+      "relacionados": {
+        "noc": [
+          "1004",
+          "1613"
+        ],
+        "nic": [
+          "5246",
+          "5614"
+        ]
+      }
+    },
+    {
+      "codigo": "00085",
+      "diagnostico": "Deterioro de la movilidad física",
+      "definicion": "Limitación del movimiento físico independiente, intencionado, del cuerpo o de una o más extremidades.",
+      "dominio": "4 – Actividad/reposo",
+      "clase": "2 – Movimiento",
+      "caracteristicas": [
+        "Dificultad para moverse de manera independiente",
+        "Disminución de la fuerza o control muscular",
+        "Rango de movimiento limitado"
+      ],
+      "factores_relacionados": [
+        "Dolor",
+        "Debilidad",
+        "Desequilibrio"
+      ],
+      "relacionados": {
+        "noc": [
+          "0208",
+          "0210"
+        ],
+        "nic": [
+          "0221",
+          "1800"
+        ]
+      }
+    },
+    {
+      "codigo": "00007",
+      "diagnostico": "Dolor agudo",
+      "definicion": "Experiencia sensitiva y emocional desagradable, asociada a daño tisular real o potencial, de duración menor a 3 meses.",
+      "dominio": "12 – Confort",
+      "clase": "1 – Confort físico",
+      "caracteristicas": [
+        "Autoinforme de dolor",
+        "Comportamientos expresivos de dolor (gestos, quejas)",
+        "Cambios fisiológicos (frecuencia cardíaca elevada)"
+      ],
+      "factores_relacionados": [
+        "Lesión física",
+        "Procedimientos invasivos",
+        "Procesos inflamatorios"
+      ],
+      "relacionados": {
+        "noc": [
+          "2102",
+          "1605"
+        ],
+        "nic": [
+          "2210",
+          "1400"
+        ]
+      }
+    },
+    {
+      "codigo": "00047",
+      "diagnostico": "Riesgo de aspiración",
+      "definicion": "Riesgo de entrada de secreciones gastrointestinales, secreciones orofaríngeas, sólidos o líquidos en la tráquea o bronquios.",
+      "dominio": "11 – Seguridad/protección",
+      "clase": "2 – Lesión física",
+      "factores_riesgo": [
+        "Disfagia",
+        "Disminución del nivel de conciencia",
+        "Alimentación por sonda"
+      ],
+      "relacionados": {
+        "noc": [
+          "3201"
+        ],
+        "nic": [
+          "3200",
+          "1050"
+        ]
+      }
+    },
+    {
+      "codigo": "00155",
+      "diagnostico": "Déficit de autocuidado: baño/higiene",
+      "definicion": "Deterioro de la capacidad para realizar o completar las actividades de baño e higiene personal.",
+      "dominio": "4 – Actividad/reposo",
+      "clase": "5 – Autocuidado",
+      "caracteristicas": [
+        "Incapacidad para lavarse solo",
+        "Olor corporal",
+        "Higiene inadecuada"
+      ],
+      "factores_relacionados": [
+        "Discapacidad física",
+        "Fatiga",
+        "Dolor"
+      ],
+      "relacionados": {
+        "noc": [
+          "0300",
+          "0301"
+        ],
+        "nic": [
+          "1801",
+          "1800"
+        ]
+      }
+    },
+    {
+      "codigo": "00165",
+      "diagnostico": "Disposición para mejorar el sueño",
+      "definicion": "Patrón de sueño que puede ser reforzado para mejorar la salud.",
+      "dominio": "1 – Promoción de la salud",
+      "clase": "1 – Conciencia de la salud",
+      "caracteristicas": [
+        "Manifiesta intención de mejorar el descanso",
+        "Deseo de seguir estrategias saludables de sueño"
+      ],
+      "relacionados": {
+        "noc": [
+          "0004",
+          "2002"
+        ],
+        "nic": [
+          "1850",
+          "5612"
+        ]
+      }
+    },
+    {
+      "codigo": "00093",
+      "diagnostico": "Fatiga",
+      "definicion": "Sensación abrumadora y sostenida de agotamiento y disminución de la capacidad para realizar trabajo físico y mental al nivel habitual.",
+      "dominio": "4 – Actividad/reposo",
+      "clase": "1 – Energía",
+      "caracteristicas": [
+        "Verbaliza sensación de cansancio",
+        "Letargo",
+        "Dificultad para mantener actividades habituales"
+      ],
+      "factores_relacionados": [
+        "Enfermedad crónica",
+        "Estrés prolongado",
+        "Trastornos del sueño"
+      ],
+      "relacionados": {
+        "noc": [
+          "0007",
+          "0009"
+        ],
+        "nic": [
+          "1850",
+          "0180"
+        ]
+      }
+    },
+    {
+      "codigo": "00092",
+      "diagnostico": "Riesgo de intolerancia a la actividad",
+      "definicion": "Riesgo de presentar energía fisiológica o psicológica insuficiente para soportar o completar las actividades necesarias o deseadas.",
+      "dominio": "4 – Actividad/reposo",
+      "clase": "1 – Energía",
+      "factores_riesgo": [
+        "Debilidad",
+        "Hospitalización prolongada",
+        "Enfermedades agudas o crónicas"
+      ],
+      "relacionados": {
+        "noc": [
+          "0009",
+          "0200"
+        ],
+        "nic": [
+          "0180",
+          "0200"
+        ]
+      }
+    },
+    {
+      "codigo": "00051",
+      "diagnostico": "Deterioro de la comunicación verbal",
+      "definicion": "Disminución, retraso o carencia de la capacidad para recibir, procesar, transmitir y/o usar un sistema de símbolos.",
+      "dominio": "9 – Afrontamiento/tolerancia al estrés",
+      "clase": "3 – Comunicación",
+      "caracteristicas": [
+        "Dificultad para articular palabras",
+        "Incapacidad para responder adecuadamente",
+        "Ausencia o disminución del habla"
+      ],
+      "factores_relacionados": [
+        "Trastornos neurológicos",
+        "Déficits sensoriales",
+        "Barreras culturales"
+      ],
+      "relacionados": {
+        "noc": [
+          "0900",
+          "0902"
+        ],
+        "nic": [
+          "4976",
+          "4920"
+        ]
+      }
+    },
+    {
+      "codigo": "00002",
+      "diagnostico": "Desequilibrio nutricional: ingesta inferior a las necesidades",
+      "definicion": "Ingesta de nutrientes insuficiente para satisfacer las necesidades metabólicas.",
+      "dominio": "2 – Nutrición",
+      "clase": "1 – Ingesta de alimentos",
+      "caracteristicas": [
+        "Pérdida de peso no intencional",
+        "Debilidad muscular",
+        "Reporta falta de apetito"
+      ],
+      "factores_relacionados": [
+        "Dificultad para masticar o tragar",
+        "Alteración en el gusto",
+        "Estado emocional alterado"
+      ],
+      "relacionados": {
+        "noc": [
+          "1004",
+          "1008"
+        ],
+        "nic": [
+          "1100",
+          "5246"
+        ]
+      }
+    },
+    {
+      "codigo": "00027",
+      "diagnostico": "Déficit de volumen de líquidos",
+      "definicion": "Disminución del volumen intravascular, intersticial y/o intracelular.",
+      "dominio": "2 – Nutrición",
+      "clase": "5 – Hidratación",
+      "caracteristicas": [
+        "Mucosas secas",
+        "Oliguria",
+        "Disminución de turgencia de la piel"
+      ],
+      "factores_relacionados": [
+        "Vómitos",
+        "Diarrea",
+        "Hemorragias"
+      ],
+      "relacionados": {
+        "noc": [
+          "0601",
+          "0502"
+        ],
+        "nic": [
+          "4120",
+          "4130"
+        ]
+      }
+    },
+    {
+      "codigo": "00069",
+      "diagnostico": "Afrontamiento ineficaz",
+      "definicion": "Incapacidad para formar una evaluación válida del estresor, recursos inadecuados para enfrentarlo o incapacidad para utilizar los recursos disponibles.",
+      "dominio": "9 – Afrontamiento/tolerancia al estrés",
+      "clase": "2 – Respuestas de afrontamiento",
+      "caracteristicas": [
+        "Expresa incapacidad para manejar la situación",
+        "Uso inadecuado de mecanismos de defensa",
+        "Cambios en el patrón del sueño"
+      ],
+      "factores_relacionados": [
+        "Crisis situacional",
+        "Enfermedad crónica",
+        "Apoyo social inadecuado"
+      ],
+      "relacionados": {
+        "noc": [
+          "1302",
+          "1404"
+        ],
+        "nic": [
+          "5230",
+          "5820"
+        ]
+      }
+    },
+    {
+      "codigo": "00106",
+      "diagnostico": "Deterioro de la dentición",
+      "definicion": "Alteración de la estructura o función normal de los dientes.",
+      "dominio": "2 – Nutrición",
+      "clase": "1 – Ingesta de alimentos",
+      "caracteristicas": [
+        "Presencia de caries",
+        "Dolor al masticar",
+        "Dientes fracturados o ausentes"
+      ],
+      "factores_relacionados": [
+        "Higiene oral inadecuada",
+        "Enfermedades sistémicas",
+        "Dieta alta en azúcares"
+      ],
+      "relacionados": {
+        "noc": [
+          "1002",
+          "1008"
+        ],
+        "nic": [
+          "1710",
+          "5246"
+        ]
+      }
+    },
+    {
+      "codigo": "00148",
+      "diagnostico": "Temor",
+      "definicion": "Respuesta a una amenaza identificable que se reconoce conscientemente como peligrosa.",
+      "dominio": "9 – Afrontamiento/tolerancia al estrés",
+      "clase": "1 – Respuestas emocionales",
+      "caracteristicas": [
+        "Verbaliza preocupación",
+        "Evita ciertas situaciones",
+        "Aumento de la tensión muscular"
+      ],
+      "factores_relacionados": [
+        "Procedimientos invasivos",
+        "Diagnóstico reciente de enfermedad grave"
+      ],
+      "relacionados": {
+        "noc": [
+          "1212",
+          "1402"
+        ],
+        "nic": [
+          "5820",
+          "5230"
+        ]
+      }
+    },
+    {
+      "codigo": "00052",
+      "diagnostico": "Deterioro de la interacción social",
+      "definicion": "Participación ineficaz o insuficiente en las relaciones sociales.",
+      "dominio": "10 – Principios de la vida",
+      "clase": "2 – Relaciones sociales",
+      "caracteristicas": [
+        "Comportamiento retraído",
+        "Dificultad para mantener relaciones",
+        "Ansiedad al interactuar"
+      ],
+      "factores_relacionados": [
+        "Trastornos del desarrollo",
+        "Enfermedad mental",
+        "Aislamiento social"
+      ],
+      "relacionados": {
+        "noc": [
+          "1503",
+          "1502"
+        ],
+        "nic": [
+          "5100",
+          "5240"
+        ]
+      }
+    },
+    {
+      "codigo": "00155",
+      "diagnostico": "Riesgo de caídas",
+      "definicion": "Riesgo de aumento en la susceptibilidad a caídas que pueden causar daño físico.",
+      "dominio": "11 – Seguridad/protección",
+      "clase": "2 – Lesión física",
+      "factores_riesgo": [
+        "Déficit de movilidad",
+        "Alteración del equilibrio",
+        "Medicación (sedantes, antihipertensivos)"
+      ],
+      "relacionados": {
+        "noc": [
+          "1909",
+          "1912"
+        ],
+        "nic": [
+          "6490",
+          "6486"
+        ]
+      }
+    },
+    {
+      "codigo": "00206",
+      "diagnostico": "Riesgo de sangrado",
+      "definicion": "Riesgo de disminución del volumen sanguíneo que puede comprometer la salud.",
+      "dominio": "11 – Seguridad/protección",
+      "clase": "2 – Lesión física",
+      "factores_riesgo": [
+        "Trastornos de coagulación",
+        "Anticoagulantes",
+        "Procedimientos invasivos recientes"
+      ],
+      "relacionados": {
+        "noc": [
+          "0416",
+          "1009"
+        ],
+        "nic": [
+          "4010",
+          "4030"
+        ]
+      }
+    },
+    {
+      "codigo": "00095",
+      "diagnostico": "Insomnio",
+      "definicion": "Interrupción de la cantidad y calidad del sueño que afecta el funcionamiento.",
+      "dominio": "4 – Actividad/reposo",
+      "clase": "1 – Sueño/descanso",
+      "caracteristicas": [
+        "Dificultad para iniciar o mantener el sueño",
+        "Reporta sensación de no haber descansado",
+        "Irritabilidad o fatiga durante el día"
+      ],
+      "factores_relacionados": [
+        "Ansiedad",
+        "Dolor",
+        "Ruido ambiental"
+      ],
+      "relacionados": {
+        "noc": [
+          "0004",
+          "2002"
+        ],
+        "nic": [
+          "1850",
+          "2300"
+        ]
+      }
+    },
+    {
+      "codigo": "00016",
+      "diagnostico": "Deterioro del patrón urinario",
+      "definicion": "Disfunción en la eliminación urinaria.",
+      "dominio": "3 – Eliminación e intercambio",
+      "clase": "1 – Función urinaria",
+      "caracteristicas": [
+        "Polaquiuria",
+        "Incontinencia",
+        "Disuria"
+      ],
+      "factores_relacionados": [
+        "Infección urinaria",
+        "Medicación diurética",
+        "Alteraciones neurológicas"
+      ],
+      "relacionados": {
+        "noc": [
+          "0501",
+          "0503"
+        ],
+        "nic": [
+          "0590",
+          "0610"
+        ]
+      }
+    },
+    {
+      "codigo": "00007",
+      "diagnostico": "Desequilibrio térmico: hipertermia",
+      "definicion": "Elevación de la temperatura corporal por encima del valor normal.",
+      "dominio": "11 – Seguridad/protección",
+      "clase": "1 – Regulación térmica",
+      "caracteristicas": [
+        "Temperatura corporal elevada",
+        "Enrojecimiento de la piel",
+        "Escalofríos, diaforesis"
+      ],
+      "factores_relacionados": [
+        "Infección",
+        "Golpe de calor"
+      ],
+      "relacionados": {
+        "noc": [
+          "0800",
+          "0802"
+        ],
+        "nic": [
+          "3900",
+          "3740"
+        ]
+      }
     }
-  ]
+  ],
+  "noc": [],
+  "nic": []
+}
+{
+  "nanda": [
+    {
+      "codigo": "00032",
+      "diagnostico": "Patrón respiratorio ineficaz",
+      "definicion": "Insuficiencia en la inspiración y/o espiración que no proporciona una ventilación adecuada.",
+      "dominio": "3 – Eliminación e intercambio",
+      "clase": "4 – Intercambio respiratorio",
+      "caracteristicas": [
+        "Disnea",
+        "Uso de músculos accesorios",
+        "Cambios en la frecuencia respiratoria",
+        "Cianosis",
+        "Tos inefectiva"
+      ],
+      "factores_relacionados": [
+        "Obstrucción de las vías respiratorias",
+        "Secreciones excesivas",
+        "Fatiga muscular"
+      ],
+      "relacionados": {
+        "noc": [
+          "0415",
+          "0410"
+        ],
+        "nic": [
+          "3140",
+          "3350"
+        ]
+      }
+    },
+    {
+      "codigo": "00004",
+      "diagnostico": "Riesgo de infección",
+      "definicion": "Aumento del riesgo de ser invadido por organismos patógenos.",
+      "dominio": "11 – Seguridad/protección",
+      "clase": "1 – Infección",
+      "factores_riesgo": [
+        "Procedimientos invasivos",
+        "Sistema inmunitario suprimido",
+        "Ruptura de barrera cutánea"
+      ],
+      "relacionados": {
+        "noc": [
+          "0702",
+          "0703"
+        ],
+        "nic": [
+          "6540",
+          "6550"
+        ]
+      }
+    },
+    {
+      "codigo": "00168",
+      "diagnostico": "Disposición para mejorar el manejo de la salud",
+      "definicion": "Patrón de regulación e integración de un régimen terapéutico diario para el tratamiento de una enfermedad y sus secuelas que puede ser mejorado.",
+      "dominio": "1 – Promoción de la salud",
+      "clase": "2 – Gestión de la salud",
+      "caracteristicas": [
+        "Expresa deseo de mejorar el manejo de su salud",
+        "Muestra disposición para adquirir conocimientos",
+        "Busca recursos de apoyo"
+      ],
+      "relacionados": {
+        "noc": [
+          "1612",
+          "1601"
+        ],
+        "nic": [
+          "5616",
+          "5602"
+        ]
+      }
+    },
+    {
+      "codigo": "00146",
+      "diagnostico": "Ansiedad",
+      "definicion": "Vaga sensación de malestar o amenaza acompañada por una respuesta autonómica.",
+      "dominio": "9 – Afrontamiento/Tolerancia al estrés",
+      "clase": "2 – Respuestas de afrontamiento",
+      "caracteristicas": [
+        "Inquietud",
+        "Nerviosismo",
+        "Expresión facial de preocupación",
+        "Dificultad para concentrarse"
+      ],
+      "factores_relacionados": [
+        "Cambio en el estado de salud",
+        "Estrés situacional",
+        "Factores socioeconómicos"
+      ],
+      "relacionados": {
+        "noc": [
+          "1211",
+          "1402"
+        ],
+        "nic": [
+          "5820",
+          "5230"
+        ]
+      }
+    },
+    {
+      "codigo": "00044",
+      "diagnostico": "Riesgo de deterioro de la integridad cutánea",
+      "definicion": "Riesgo de alteración en la epidermis y/o dermis.",
+      "dominio": "11 – Seguridad/protección",
+      "clase": "2 – Lesión física",
+      "factores_riesgo": [
+        "Inmovilidad",
+        "Humedad excesiva",
+        "Estado nutricional deficiente"
+      ],
+      "relacionados": {
+        "noc": [
+          "1101",
+          "1102"
+        ],
+        "nic": [
+          "3590",
+          "3540"
+        ]
+      }
+    },
+    {
+      "codigo": "00162",
+      "diagnostico": "Disposición para mejorar la nutrición",
+      "definicion": "Patrón de consumo de nutrientes que puede ser mejorado.",
+      "dominio": "1 – Promoción de la salud",
+      "clase": "2 – Nutrición",
+      "caracteristicas": [
+        "Interés en planificar dietas saludables",
+        "Deseo de mejorar los hábitos alimenticios"
+      ],
+      "relacionados": {
+        "noc": [
+          "1004",
+          "1613"
+        ],
+        "nic": [
+          "5246",
+          "5614"
+        ]
+      }
+    },
+    {
+      "codigo": "00085",
+      "diagnostico": "Deterioro de la movilidad física",
+      "definicion": "Limitación del movimiento físico independiente, intencionado, del cuerpo o de una o más extremidades.",
+      "dominio": "4 – Actividad/reposo",
+      "clase": "2 – Movimiento",
+      "caracteristicas": [
+        "Dificultad para moverse de manera independiente",
+        "Disminución de la fuerza o control muscular",
+        "Rango de movimiento limitado"
+      ],
+      "factores_relacionados": [
+        "Dolor",
+        "Debilidad",
+        "Desequilibrio"
+      ],
+      "relacionados": {
+        "noc": [
+          "0208",
+          "0210"
+        ],
+        "nic": [
+          "0221",
+          "1800"
+        ]
+      }
+    },
+    {
+      "codigo": "00007",
+      "diagnostico": "Dolor agudo",
+      "definicion": "Experiencia sensitiva y emocional desagradable, asociada a daño tisular real o potencial, de duración menor a 3 meses.",
+      "dominio": "12 – Confort",
+      "clase": "1 – Confort físico",
+      "caracteristicas": [
+        "Autoinforme de dolor",
+        "Comportamientos expresivos de dolor (gestos, quejas)",
+        "Cambios fisiológicos (frecuencia cardíaca elevada)"
+      ],
+      "factores_relacionados": [
+        "Lesión física",
+        "Procedimientos invasivos",
+        "Procesos inflamatorios"
+      ],
+      "relacionados": {
+        "noc": [
+          "2102",
+          "1605"
+        ],
+        "nic": [
+          "2210",
+          "1400"
+        ]
+      }
+    },
+    {
+      "codigo": "00047",
+      "diagnostico": "Riesgo de aspiración",
+      "definicion": "Riesgo de entrada de secreciones gastrointestinales, secreciones orofaríngeas, sólidos o líquidos en la tráquea o bronquios.",
+      "dominio": "11 – Seguridad/protección",
+      "clase": "2 – Lesión física",
+      "factores_riesgo": [
+        "Disfagia",
+        "Disminución del nivel de conciencia",
+        "Alimentación por sonda"
+      ],
+      "relacionados": {
+        "noc": [
+          "3201"
+        ],
+        "nic": [
+          "3200",
+          "1050"
+        ]
+      }
+    },
+    {
+      "codigo": "00155",
+      "diagnostico": "Déficit de autocuidado: baño/higiene",
+      "definicion": "Deterioro de la capacidad para realizar o completar las actividades de baño e higiene personal.",
+      "dominio": "4 – Actividad/reposo",
+      "clase": "5 – Autocuidado",
+      "caracteristicas": [
+        "Incapacidad para lavarse solo",
+        "Olor corporal",
+        "Higiene inadecuada"
+      ],
+      "factores_relacionados": [
+        "Discapacidad física",
+        "Fatiga",
+        "Dolor"
+      ],
+      "relacionados": {
+        "noc": [
+          "0300",
+          "0301"
+        ],
+        "nic": [
+          "1801",
+          "1800"
+        ]
+      }
+    },
+    {
+      "codigo": "00165",
+      "diagnostico": "Disposición para mejorar el sueño",
+      "definicion": "Patrón de sueño que puede ser reforzado para mejorar la salud.",
+      "dominio": "1 – Promoción de la salud",
+      "clase": "1 – Conciencia de la salud",
+      "caracteristicas": [
+        "Manifiesta intención de mejorar el descanso",
+        "Deseo de seguir estrategias saludables de sueño"
+      ],
+      "relacionados": {
+        "noc": [
+          "0004",
+          "2002"
+        ],
+        "nic": [
+          "1850",
+          "5612"
+        ]
+      }
+    },
+    {
+      "codigo": "00093",
+      "diagnostico": "Fatiga",
+      "definicion": "Sensación abrumadora y sostenida de agotamiento y disminución de la capacidad para realizar trabajo físico y mental al nivel habitual.",
+      "dominio": "4 – Actividad/reposo",
+      "clase": "1 – Energía",
+      "caracteristicas": [
+        "Verbaliza sensación de cansancio",
+        "Letargo",
+        "Dificultad para mantener actividades habituales"
+      ],
+      "factores_relacionados": [
+        "Enfermedad crónica",
+        "Estrés prolongado",
+        "Trastornos del sueño"
+      ],
+      "relacionados": {
+        "noc": [
+          "0007",
+          "0009"
+        ],
+        "nic": [
+          "1850",
+          "0180"
+        ]
+      }
+    },
+    {
+      "codigo": "00092",
+      "diagnostico": "Riesgo de intolerancia a la actividad",
+      "definicion": "Riesgo de presentar energía fisiológica o psicológica insuficiente para soportar o completar las actividades necesarias o deseadas.",
+      "dominio": "4 – Actividad/reposo",
+      "clase": "1 – Energía",
+      "factores_riesgo": [
+        "Debilidad",
+        "Hospitalización prolongada",
+        "Enfermedades agudas o crónicas"
+      ],
+      "relacionados": {
+        "noc": [
+          "0009",
+          "0200"
+        ],
+        "nic": [
+          "0180",
+          "0200"
+        ]
+      }
+    },
+    {
+      "codigo": "00051",
+      "diagnostico": "Deterioro de la comunicación verbal",
+      "definicion": "Disminución, retraso o carencia de la capacidad para recibir, procesar, transmitir y/o usar un sistema de símbolos.",
+      "dominio": "9 – Afrontamiento/tolerancia al estrés",
+      "clase": "3 – Comunicación",
+      "caracteristicas": [
+        "Dificultad para articular palabras",
+        "Incapacidad para responder adecuadamente",
+        "Ausencia o disminución del habla"
+      ],
+      "factores_relacionados": [
+        "Trastornos neurológicos",
+        "Déficits sensoriales",
+        "Barreras culturales"
+      ],
+      "relacionados": {
+        "noc": [
+          "0900",
+          "0902"
+        ],
+        "nic": [
+          "4976",
+          "4920"
+        ]
+      }
+    },
+    {
+      "codigo": "00002",
+      "diagnostico": "Desequilibrio nutricional: ingesta inferior a las necesidades",
+      "definicion": "Ingesta de nutrientes insuficiente para satisfacer las necesidades metabólicas.",
+      "dominio": "2 – Nutrición",
+      "clase": "1 – Ingesta de alimentos",
+      "caracteristicas": [
+        "Pérdida de peso no intencional",
+        "Debilidad muscular",
+        "Reporta falta de apetito"
+      ],
+      "factores_relacionados": [
+        "Dificultad para masticar o tragar",
+        "Alteración en el gusto",
+        "Estado emocional alterado"
+      ],
+      "relacionados": {
+        "noc": [
+          "1004",
+          "1008"
+        ],
+        "nic": [
+          "1100",
+          "5246"
+        ]
+      }
+    },
+    {
+      "codigo": "00027",
+      "diagnostico": "Déficit de volumen de líquidos",
+      "definicion": "Disminución del volumen intravascular, intersticial y/o intracelular.",
+      "dominio": "2 – Nutrición",
+      "clase": "5 – Hidratación",
+      "caracteristicas": [
+        "Mucosas secas",
+        "Oliguria",
+        "Disminución de turgencia de la piel"
+      ],
+      "factores_relacionados": [
+        "Vómitos",
+        "Diarrea",
+        "Hemorragias"
+      ],
+      "relacionados": {
+        "noc": [
+          "0601",
+          "0502"
+        ],
+        "nic": [
+          "4120",
+          "4130"
+        ]
+      }
+    },
+    {
+      "codigo": "00069",
+      "diagnostico": "Afrontamiento ineficaz",
+      "definicion": "Incapacidad para formar una evaluación válida del estresor, recursos inadecuados para enfrentarlo o incapacidad para utilizar los recursos disponibles.",
+      "dominio": "9 – Afrontamiento/tolerancia al estrés",
+      "clase": "2 – Respuestas de afrontamiento",
+      "caracteristicas": [
+        "Expresa incapacidad para manejar la situación",
+        "Uso inadecuado de mecanismos de defensa",
+        "Cambios en el patrón del sueño"
+      ],
+      "factores_relacionados": [
+        "Crisis situacional",
+        "Enfermedad crónica",
+        "Apoyo social inadecuado"
+      ],
+      "relacionados": {
+        "noc": [
+          "1302",
+          "1404"
+        ],
+        "nic": [
+          "5230",
+          "5820"
+        ]
+      }
+    },
+    {
+      "codigo": "00106",
+      "diagnostico": "Deterioro de la dentición",
+      "definicion": "Alteración de la estructura o función normal de los dientes.",
+      "dominio": "2 – Nutrición",
+      "clase": "1 – Ingesta de alimentos",
+      "caracteristicas": [
+        "Presencia de caries",
+        "Dolor al masticar",
+        "Dientes fracturados o ausentes"
+      ],
+      "factores_relacionados": [
+        "Higiene oral inadecuada",
+        "Enfermedades sistémicas",
+        "Dieta alta en azúcares"
+      ],
+      "relacionados": {
+        "noc": [
+          "1002",
+          "1008"
+        ],
+        "nic": [
+          "1710",
+          "5246"
+        ]
+      }
+    },
+    {
+      "codigo": "00148",
+      "diagnostico": "Temor",
+      "definicion": "Respuesta a una amenaza identificable que se reconoce conscientemente como peligrosa.",
+      "dominio": "9 – Afrontamiento/tolerancia al estrés",
+      "clase": "1 – Respuestas emocionales",
+      "caracteristicas": [
+        "Verbaliza preocupación",
+        "Evita ciertas situaciones",
+        "Aumento de la tensión muscular"
+      ],
+      "factores_relacionados": [
+        "Procedimientos invasivos",
+        "Diagnóstico reciente de enfermedad grave"
+      ],
+      "relacionados": {
+        "noc": [
+          "1212",
+          "1402"
+        ],
+        "nic": [
+          "5820",
+          "5230"
+        ]
+      }
+    },
+    {
+      "codigo": "00052",
+      "diagnostico": "Deterioro de la interacción social",
+      "definicion": "Participación ineficaz o insuficiente en las relaciones sociales.",
+      "dominio": "10 – Principios de la vida",
+      "clase": "2 – Relaciones sociales",
+      "caracteristicas": [
+        "Comportamiento retraído",
+        "Dificultad para mantener relaciones",
+        "Ansiedad al interactuar"
+      ],
+      "factores_relacionados": [
+        "Trastornos del desarrollo",
+        "Enfermedad mental",
+        "Aislamiento social"
+      ],
+      "relacionados": {
+        "noc": [
+          "1503",
+          "1502"
+        ],
+        "nic": [
+          "5100",
+          "5240"
+        ]
+      }
+    },
+    {
+      "codigo": "00155",
+      "diagnostico": "Riesgo de caídas",
+      "definicion": "Riesgo de aumento en la susceptibilidad a caídas que pueden causar daño físico.",
+      "dominio": "11 – Seguridad/protección",
+      "clase": "2 – Lesión física",
+      "factores_riesgo": [
+        "Déficit de movilidad",
+        "Alteración del equilibrio",
+        "Medicación (sedantes, antihipertensivos)"
+      ],
+      "relacionados": {
+        "noc": [
+          "1909",
+          "1912"
+        ],
+        "nic": [
+          "6490",
+          "6486"
+        ]
+      }
+    },
+    {
+      "codigo": "00206",
+      "diagnostico": "Riesgo de sangrado",
+      "definicion": "Riesgo de disminución del volumen sanguíneo que puede comprometer la salud.",
+      "dominio": "11 – Seguridad/protección",
+      "clase": "2 – Lesión física",
+      "factores_riesgo": [
+        "Trastornos de coagulación",
+        "Anticoagulantes",
+        "Procedimientos invasivos recientes"
+      ],
+      "relacionados": {
+        "noc": [
+          "0416",
+          "1009"
+        ],
+        "nic": [
+          "4010",
+          "4030"
+        ]
+      }
+    },
+    {
+      "codigo": "00095",
+      "diagnostico": "Insomnio",
+      "definicion": "Interrupción de la cantidad y calidad del sueño que afecta el funcionamiento.",
+      "dominio": "4 – Actividad/reposo",
+      "clase": "1 – Sueño/descanso",
+      "caracteristicas": [
+        "Dificultad para iniciar o mantener el sueño",
+        "Reporta sensación de no haber descansado",
+        "Irritabilidad o fatiga durante el día"
+      ],
+      "factores_relacionados": [
+        "Ansiedad",
+        "Dolor",
+        "Ruido ambiental"
+      ],
+      "relacionados": {
+        "noc": [
+          "0004",
+          "2002"
+        ],
+        "nic": [
+          "1850",
+          "2300"
+        ]
+      }
+    },
+    {
+      "codigo": "00016",
+      "diagnostico": "Deterioro del patrón urinario",
+      "definicion": "Disfunción en la eliminación urinaria.",
+      "dominio": "3 – Eliminación e intercambio",
+      "clase": "1 – Función urinaria",
+      "caracteristicas": [
+        "Polaquiuria",
+        "Incontinencia",
+        "Disuria"
+      ],
+      "factores_relacionados": [
+        "Infección urinaria",
+        "Medicación diurética",
+        "Alteraciones neurológicas"
+      ],
+      "relacionados": {
+        "noc": [
+          "0501",
+          "0503"
+        ],
+        "nic": [
+          "0590",
+          "0610"
+        ]
+      }
+    },
+    {
+      "codigo": "00007",
+      "diagnostico": "Desequilibrio térmico: hipertermia",
+      "definicion": "Elevación de la temperatura corporal por encima del valor normal.",
+      "dominio": "11 – Seguridad/protección",
+      "clase": "1 – Regulación térmica",
+      "caracteristicas": [
+        "Temperatura corporal elevada",
+        "Enrojecimiento de la piel",
+        "Escalofríos, diaforesis"
+      ],
+      "factores_relacionados": [
+        "Infección",
+        "Golpe de calor"
+      ],
+      "relacionados": {
+        "noc": [
+          "0800",
+          "0802"
+        ],
+        "nic": [
+          "3900",
+          "3740"
+        ]
+      }
+    },
+    {
+      "codigo": "00011",
+      "diagnostico": "Estreñimiento",
+      "definicion": "Disminución de la frecuencia, cantidad o consistencia habitual de las evacuaciones.",
+      "dominio": "3 – Eliminación e intercambio",
+      "clase": "2 – Función gastrointestinal",
+      "caracteristicas": [
+        "Evacuaciones infrecuentes",
+        "Heces duras",
+        "Esfuerzo excesivo al defecar"
+      ],
+      "factores_relacionados": [
+        "Dieta pobre en fibra",
+        "Inmovilidad",
+        "Medicación opioide"
+      ],
+      "relacionados": {
+        "noc": [
+          "0501",
+          "0506"
+        ],
+        "nic": [
+          "0450",
+          "1052"
+        ]
+      }
+    },
+    {
+      "codigo": "00203",
+      "diagnostico": "Riesgo de perfusión tisular inefectiva",
+      "definicion": "Riesgo de disminución de la oxigenación en los tejidos a nivel capilar que puede comprometer la salud.",
+      "dominio": "4 – Actividad/reposo",
+      "clase": "4 – Perfusión cardiopulmonar",
+      "factores_riesgo": [
+        "Hipotensión",
+        "Inmovilidad prolongada",
+        "Diabetes mellitus"
+      ],
+      "relacionados": {
+        "noc": [
+          "0402",
+          "0401"
+        ],
+        "nic": [
+          "4060",
+          "4010"
+        ]
+      }
+    },
+    {
+      "codigo": "00102",
+      "diagnostico": "Náuseas",
+      "definicion": "Sensación desagradable en la parte posterior de la garganta, epigastrio o abdomen que puede provocar el deseo de vomitar.",
+      "dominio": "12 – Confort",
+      "clase": "1 – Confort físico",
+      "caracteristicas": [
+        "Reporta náuseas",
+        "Hipersalivación",
+        "Cambios en el apetito"
+      ],
+      "factores_relacionados": [
+        "Tratamientos farmacológicos (quimioterapia)",
+        "Embarazo",
+        "Infecciones gastrointestinales"
+      ],
+      "relacionados": {
+        "noc": [
+          "0701",
+          "1008"
+        ],
+        "nic": [
+          "1450",
+          "5246"
+        ]
+      }
+    },
+    {
+      "codigo": "00136",
+      "diagnostico": "Duelo disfuncional",
+      "definicion": "Trastorno de la resolución del duelo tras una pérdida significativa.",
+      "dominio": "9 – Afrontamiento/tolerancia al estrés",
+      "clase": "1 – Respuestas emocionales",
+      "caracteristicas": [
+        "Incapacidad para aceptar la pérdida",
+        "Tristeza prolongada",
+        "Conductas de evitación o aislamiento"
+      ],
+      "factores_relacionados": [
+        "Muerte inesperada",
+        "Apoyo social limitado",
+        "Historial de depresión"
+      ],
+      "relacionados": {
+        "noc": [
+          "1300",
+          "1404"
+        ],
+        "nic": [
+          "5230",
+          "5270"
+        ]
+      }
+    },
+    {
+      "codigo": "00176",
+      "diagnostico": "Disposición para mejorar la salud sexual",
+      "definicion": "Patrón de expresión de la sexualidad que puede ser mejorado para fortalecer el bienestar.",
+      "dominio": "1 – Promoción de la salud",
+      "clase": "2 – Gestión de la salud",
+      "caracteristicas": [
+        "Deseo de mejorar la satisfacción sexual",
+        "Busca orientación sobre sexualidad saludable"
+      ],
+      "relacionados": {
+        "noc": [
+          "2001",
+          "2002"
+        ],
+        "nic": [
+          "5240",
+          "5380"
+        ]
+      }
+    },
+    {
+      "codigo": "00124",
+      "diagnostico": "Deterioro de la deglución",
+      "definicion": "Funcionamiento anormal del mecanismo de deglución asociado con deficiencias en la estructura o función oral, faríngea o esofágica.",
+      "dominio": "2 – Nutrición",
+      "clase": "1 – Ingesta de alimentos",
+      "caracteristicas": [
+        "Tos durante o después de comer",
+        "Voz húmeda",
+        "Dificultad para tragar sólidos o líquidos"
+      ],
+      "factores_relacionados": [
+        "Enfermedades neurológicas",
+        "ACV",
+        "Cáncer de cabeza/cuello"
+      ],
+      "relacionados": {
+        "noc": [
+          "1003",
+          "0410"
+        ],
+        "nic": [
+          "3200",
+          "1050"
+        ]
+      }
+    },
+    {
+      "codigo": "00231",
+      "diagnostico": "Riesgo de síndrome de fragilidad del anciano",
+      "definicion": "Riesgo de disminución progresiva en múltiples sistemas fisiológicos del adulto mayor, que incrementa su vulnerabilidad.",
+      "dominio": "1 – Promoción de la salud",
+      "clase": "3 – Envejecimiento saludable",
+      "factores_riesgo": [
+        "Inmovilidad",
+        "Pérdida de masa muscular",
+        "Polifarmacia"
+      ],
+      "relacionados": {
+        "noc": [
+          "2008",
+          "0210"
+        ],
+        "nic": [
+          "2020",
+          "4360"
+        ]
+      }
+    },
+    {
+      "codigo": "00103",
+      "diagnostico": "Déficit de autocuidado: alimentación",
+      "definicion": "Deterioro en la capacidad de una persona para alimentarse de forma independiente.",
+      "dominio": "4 – Actividad/reposo",
+      "clase": "5 – Autocuidado",
+      "caracteristicas": [
+        "Necesita asistencia para alimentarse",
+        "Incapacidad para llevar alimentos a la boca",
+        "Dificultad para usar utensilios"
+      ],
+      "factores_relacionados": [
+        "Déficit neuromuscular",
+        "Deterioro cognitivo"
+      ],
+      "relacionados": {
+        "noc": [
+          "0303",
+          "0301"
+        ],
+        "nic": [
+          "1802",
+          "0480"
+        ]
+      }
+    },
+    {
+      "codigo": "00129",
+      "diagnostico": "Confusión aguda",
+      "definicion": "Inicio repentino de un estado fluctuante de conciencia, con alteración en la cognición, atención y percepción.",
+      "dominio": "9 – Afrontamiento/tolerancia al estrés",
+      "clase": "3 – Procesos cognitivos",
+      "caracteristicas": [
+        "Cambios en el nivel de conciencia",
+        "Dificultad para enfocar la atención",
+        "Alucinaciones o delirios"
+      ],
+      "factores_relacionados": [
+        "Trastornos metabólicos",
+        "Infecciones",
+        "Polifarmacia"
+      ],
+      "relacionados": {
+        "noc": [
+          "0907",
+          "0911"
+        ],
+        "nic": [
+          "6680",
+          "6486"
+        ]
+      }
+    },
+    {
+      "codigo": "00210",
+      "diagnostico": "Riesgo de presión arterial inestable",
+      "definicion": "Riesgo de fluctuaciones inadecuadas de la presión arterial que pueden afectar el estado fisiológico.",
+      "dominio": "4 – Actividad/reposo",
+      "clase": "4 – Perfusión cardiopulmonar",
+      "factores_riesgo": [
+        "Uso de antihipertensivos",
+        "Hemorragias activas",
+        "Trastornos del sistema nervioso autónomo"
+      ],
+      "relacionados": {
+        "noc": [
+          "0401",
+          "0805"
+        ],
+        "nic": [
+          "4150",
+          "4030"
+        ]
+      }
+    }
+  ],
+  "noc": [],
+  "nic": []
 }
