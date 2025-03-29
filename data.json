@@ -1,360 +1,50 @@
-"nic": [
-  {
-    "codigo": "3140",
-    "intervencion": "Manejo de las vías respiratorias",
-    "definicion": "Facilitar la permeabilidad de las vías respiratorias mediante técnicas no invasivas.",
-    "dominio": "3 – Fisiológico: complejo",
-    "clase": "2 – Control respiratorio",
-    "actividades": [
-      "314001 – Posicionar al paciente para facilitar el drenaje",
-      "314004 – Aspirar secreciones si es necesario"
-    ],
-    "relacionados": {
-      "nanda": ["00032"],
-      "noc": ["0410", "0415"]
+{
+  "nanda": [
+    {
+      "codigo": "00231",
+      "diagnostico": "Riesgo de síndrome de fragilidad del anciano",
+      "definicion": "Riesgo de disminución progresiva en múltiples sistemas fisiológicos del adulto mayor, que incrementa su vulnerabilidad.",
+      "dominio": "1 – Promoción de la salud",
+      "clase": "3 – Envejecimiento saludable",
+      "factores_riesgo": [
+        "Inmovilidad",
+        "Pérdida de masa muscular",
+        "Polifarmacia"
+      ],
+      "relacionados": {
+        "noc": ["2008", "0210"],
+        "nic": ["2020", "4360"]
+      }
     }
-  },
-  {
-    "codigo": "3350",
-    "intervencion": "Monitorización respiratoria",
-    "definicion": "Recopilación y análisis de datos del estado respiratorio para identificar desviaciones de la normalidad.",
-    "dominio": "2 – Fisiológico: básico",
-    "clase": "4 – Monitorización",
-    "actividades": [
-      "335002 – Observar la frecuencia y patrón respiratorio",
-      "335003 – Controlar la saturación de oxígeno"
-    ],
-    "relacionados": {
-      "nanda": ["00032"],
-      "noc": ["0410"]
+  ],
+  "noc": [
+    {
+      "codigo": "2008",
+      "resultado": "Nivel de energía",
+      "definicion": "Grado en el que un adulto mayor mantiene la fuerza y vitalidad necesarias para las actividades diarias.",
+      "dominio": "4 – Actividad/reposo",
+      "clase": "1 – Energía",
+      "relacionados": {
+        "nanda": ["00231"],
+        "nic": ["2020"]
+      }
     }
-  },
-  {
-    "codigo": "6540",
-    "intervencion": "Control de infecciones",
-    "definicion": "Minimización del riesgo de transmisión y desarrollo de agentes infecciosos.",
-    "dominio": "7 – Seguridad",
-    "clase": "1 – Prevención",
-    "actividades": [
-      "654002 – Usar técnica aséptica",
-      "654003 – Aislar al paciente si es necesario"
-    ],
-    "relacionados": {
-      "nanda": ["00004"],
-      "noc": ["0702"]
+  ],
+  "nic": [
+    {
+      "codigo": "2020",
+      "intervencion": "Ejercicio: entrenamiento de fuerza",
+      "definicion": "Planificación de actividades físicas orientadas al mantenimiento o aumento de fuerza muscular.",
+      "dominio": "4 – Actividad física",
+      "clase": "2 – Terapia de ejercicio",
+      "actividades": [
+        "202001 – Diseñar rutina personalizada de ejercicios",
+        "202005 – Evaluar progreso funcional del paciente"
+      ],
+      "relacionados": {
+        "nanda": ["00231"],
+        "noc": ["2008", "0210"]
+      }
     }
-  },
-  {
-    "codigo": "6550",
-    "intervencion": "Protección contra infecciones",
-    "definicion": "Reducción del riesgo de infecciones secundarias o complicaciones infecciosas.",
-    "dominio": "7 – Seguridad",
-    "clase": "1 – Prevención",
-    "actividades": [],
-    "relacionados": {
-      "nanda": ["00004"],
-      "noc": ["0702"]
-    }
-  },
-  {
-    "codigo": "5616",
-    "intervencion": "Enseñanza: proceso de enfermedad",
-    "definicion": "Proporcionar información sobre el proceso patológico y su tratamiento.",
-    "dominio": "5 – Enseñanza",
-    "clase": "2 – Educación sobre salud",
-    "actividades": [
-      "561601 – Evaluar conocimientos actuales del paciente",
-      "561603 – Explicar pronóstico y medidas preventivas"
-    ],
-    "relacionados": {
-      "nanda": ["00168"],
-      "noc": ["1601", "1612"]
-    }
-  },
-  {
-    "codigo": "5602",
-    "intervencion": "Enseñanza: medicación prescrita",
-    "definicion": "Proporcionar información sobre la medicación prescrita.",
-    "dominio": "5 – Enseñanza",
-    "clase": "2 – Educación sobre salud",
-    "actividades": [
-      "560201 – Informar sobre dosis, vía y frecuencia",
-      "560204 – Explicar efectos secundarios y medidas de seguridad"
-    ],
-    "relacionados": {
-      "nanda": ["00168"],
-      "noc": ["1601"]
-    }
-  },
-  {
-    "codigo": "5820",
-    "intervencion": "Disminución de la ansiedad",
-    "definicion": "Técnicas diseñadas para reducir el nivel de tensión emocional del paciente.",
-    "dominio": "3 – Psicosocial",
-    "clase": "3 – Apoyo emocional",
-    "actividades": [
-      "582002 – Crear ambiente tranquilo",
-      "582006 – Fomentar expresión de sentimientos"
-    ],
-    "relacionados": {
-      "nanda": ["00146", "00148", "00069"],
-      "noc": ["1211", "1212", "1404"]
-    }
-  }
-]
-[
-  {
-    "codigo": "5230",
-    "intervencion": "Mejora del afrontamiento",
-    "definicion": "Facilitar la valoración de alternativas, tomar decisiones y usar recursos para afrontar los problemas personales o relacionados con la salud.",
-    "dominio": "3 – Psicosocial",
-    "clase": "1 – Apoyo psicológico",
-    "actividades": [],
-    "relacionados": {
-      "nanda": ["00069", "00146", "00148", "00136"],
-      "noc": ["1302", "1402", "1404", "1300"]
-    }
-  },
-  {
-    "codigo": "3590",
-    "intervencion": "Vigilancia de la piel",
-    "definicion": "Recogida y análisis de datos para mantener la integridad de la piel y prevenir lesiones.",
-    "dominio": "2 – Fisiológico: básico",
-    "clase": "4 – Monitorización",
-    "actividades": [
-      "359001 – Inspeccionar piel diariamente",
-      "359004 – Evaluar zonas de presión"
-    ],
-    "relacionados": {
-      "nanda": ["00044"],
-      "noc": ["1101", "1102"]
-    }
-  },
-  {
-    "codigo": "5246",
-    "intervencion": "Asesoramiento nutricional",
-    "definicion": "Usar un enfoque interactivo para ayudar a un individuo o familia a tomar decisiones informadas sobre alimentación y nutrición.",
-    "dominio": "5 – Enseñanza",
-    "clase": "1 – Educación sobre salud",
-    "actividades": [
-      "524601 – Evaluar conocimientos actuales sobre nutrición",
-      "524604 – Elaborar plan nutricional individualizado"
-    ],
-    "relacionados": {
-      "nanda": ["00162", "00002", "00106", "00102"],
-      "noc": ["1004", "1008", "0701"]
-    }
-  },
-  {
-    "codigo": "1400",
-    "intervencion": "Manejo del dolor",
-    "definicion": "Alivio o disminución del dolor a través de medidas farmacológicas y no farmacológicas.",
-    "dominio": "3 – Fisiológico: complejo",
-    "clase": "1 – Manejo del confort",
-    "actividades": [
-      "140001 – Valorar características del dolor",
-      "140005 – Aplicar técnicas de relajación o calor/frío"
-    ],
-    "relacionados": {
-      "nanda": ["00007"],
-      "noc": ["2102", "1605"]
-    }
-  },
-  {
-    "codigo": "1802",
-    "intervencion": "Ayuda con la alimentación",
-    "definicion": "Asistencia para que el paciente pueda alimentarse adecuadamente.",
-    "dominio": "4 – Función fisiológica: básica",
-    "clase": "5 – Autocuidados",
-    "actividades": [
-      "180201 – Preparar bandeja de comida adecuada",
-      "180204 – Ayudar a llevar el alimento a la boca"
-    ],
-    "relacionados": {
-      "nanda": ["00103"],
-      "noc": ["0303", "1004"]
-    }
-  },
-  {
-    "codigo": "6490",
-    "intervencion": "Prevención de caídas",
-    "definicion": "Identificación de riesgos y aplicación de medidas para evitar caídas en pacientes con movilidad reducida o alterada.",
-    "dominio": "7 – Seguridad",
-    "clase": "1 – Prevención de lesiones",
-    "actividades": [
-      "649001 – Evaluar factores de riesgo de caída",
-      "649004 – Colocar timbre al alcance y barandas elevadas"
-    ],
-    "relacionados": {
-      "nanda": ["00155"],
-      "noc": ["1909", "1912"]
-    }
-  },
-  {
-    "codigo": "0590",
-    "intervencion": "Manejo de la eliminación urinaria",
-    "definicion": "Facilitar y monitorizar la función urinaria del paciente.",
-    "dominio": "2 – Fisiológico: básico",
-    "clase": "2 – Control urinario",
-    "actividades": [
-      "059001 – Valorar frecuencia y volumen urinario",
-      "059005 – Proporcionar asistencia para ir al baño"
-    ],
-    "relacionados": {
-      "nanda": ["00016"],
-      "noc": ["0501"]
-    }
-  }
-]
-[
-  {
-    "codigo": "1450",
-    "intervencion": "Manejo de náuseas",
-    "definicion": "Alivio o prevención de la sensación de náuseas.",
-    "dominio": "3 – Confort",
-    "clase": "1 – Manejo de síntomas",
-    "actividades": [
-      "145001 – Controlar factores que provocan náuseas",
-      "145005 – Administrar medicación antiemética"
-    ],
-    "relacionados": {
-      "nanda": ["00102"],
-      "noc": ["0701", "1008"]
-    }
-  },
-  {
-    "codigo": "6680",
-    "intervencion": "Manejo de la confusión aguda",
-    "definicion": "Intervenciones dirigidas a disminuir la confusión y mejorar la orientación temporal y espacial del paciente.",
-    "dominio": "9 – Psicosocial",
-    "clase": "2 – Cognición",
-    "actividades": [
-      "668001 – Proporcionar ambiente tranquilo y estructurado",
-      "668004 – Reorientar al paciente frecuentemente"
-    ],
-    "relacionados": {
-      "nanda": ["00129"],
-      "noc": ["0907", "0911"]
-    }
-  },
-  {
-    "codigo": "5244",
-    "intervencion": "Apoyo a la lactancia",
-    "definicion": "Asistencia y educación a la madre para establecer y mantener la lactancia materna.",
-    "dominio": "2 – Fisiológico: complejo",
-    "clase": "1 – Nutrición",
-    "actividades": [
-      "524401 – Enseñar técnicas de agarre y posición",
-      "524404 – Evaluar signos de succión efectiva"
-    ],
-    "relacionados": {
-      "nanda": ["00120"],
-      "noc": ["0704", "1008"]
-    }
-  },
-  {
-    "codigo": "3900",
-    "intervencion": "Regulación de la temperatura",
-    "definicion": "Promover y mantener una temperatura corporal normal.",
-    "dominio": "2 – Fisiológico: básico",
-    "clase": "5 – Regulación",
-    "actividades": [
-      "390001 – Medir temperatura corporal regularmente",
-      "390003 – Administrar antipiréticos si están indicados"
-    ],
-    "relacionados": {
-      "nanda": ["00007"],
-      "noc": ["0800", "0802"]
-    }
-  },
-  {
-    "codigo": "4060",
-    "intervencion": "Manejo circulatorio",
-    "definicion": "Promoción y mantenimiento de una circulación adecuada.",
-    "dominio": "2 – Fisiológico: básico",
-    "clase": "2 – Control circulatorio",
-    "actividades": [
-      "406001 – Valorar pulsos periféricos",
-      "406004 – Monitorizar presión arterial y signos de perfusión"
-    ],
-    "relacionados": {
-      "nanda": ["00203"],
-      "noc": ["0402", "0401"]
-    }
-  },
-  {
-    "codigo": "4030",
-    "intervencion": "Vigilancia de sangrado",
-    "definicion": "Evaluación continua de signos y síntomas de hemorragia activa.",
-    "dominio": "2 – Fisiológico: básico",
-    "clase": "4 – Monitorización",
-    "actividades": [
-      "403001 – Controlar vendajes, drenajes y heces/ orina con sangre",
-      "403003 – Monitorizar niveles de hemoglobina y hematocrito"
-    ],
-    "relacionados": {
-      "nanda": ["00206", "00210"],
-      "noc": ["1009", "0805"]
-    }
-  },
-  {
-    "codigo": "4150",
-    "intervencion": "Control de signos vitales",
-    "definicion": "Medición, interpretación y documentación de signos fisiológicos esenciales.",
-    "dominio": "2 – Fisiológico: básico",
-    "clase": "4 – Monitorización",
-    "actividades": [
-      "415001 – Controlar FC, PA, FR y temperatura periódicamente",
-      "415004 – Documentar y reportar hallazgos anormales"
-    ],
-    "relacionados": {
-      "nanda": ["00210"],
-      "noc": ["0805", "0502"]
-    }
-  },
-  {
-    "codigo": "5270",
-    "intervencion": "Apoyo en el duelo",
-    "definicion": "Ayuda emocional proporcionada a una persona que ha experimentado una pérdida.",
-    "dominio": "5 – Psicosocial",
-    "clase": "1 – Apoyo emocional",
-    "actividades": [
-      "527001 – Escuchar activamente los sentimientos",
-      "527004 – Facilitar participación en grupos de apoyo"
-    ],
-    "relacionados": {
-      "nanda": ["00136"],
-      "noc": ["1300"]
-    }
-  },
-  {
-    "codigo": "2020",
-    "intervencion": "Ejercicio: entrenamiento de fuerza",
-    "definicion": "Planificación de actividades físicas orientadas al mantenimiento o aumento de fuerza muscular.",
-    "dominio": "4 – Actividad física",
-    "clase": "2 – Terapia de ejercicio",
-    "actividades": [
-      "202001 – Diseñar rutina personalizada de ejercicios",
-      "202005 – Evaluar progreso funcional del paciente"
-    ],
-    "relacionados": {
-      "nanda": ["00231", "00240"],
-      "noc": ["2008", "0210"]
-    }
-  },
-  {
-    "codigo": "1801",
-    "intervencion": "Ayuda con el baño/higiene",
-    "definicion": "Asistencia para realizar tareas de higiene personal.",
-    "dominio": "4 – Función fisiológica: básica",
-    "clase": "5 – Autocuidado",
-    "actividades": [
-      "180101 – Asistir en el lavado del cuerpo y rostro",
-      "180105 – Proveer artículos de higiene personal"
-    ],
-    "relacionados": {
-      "nanda": ["00155"],
-      "noc": ["0301"]
-    }
-  }
-]
+  ]
+}
