@@ -5,40 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Sistema DIE – Diagnósticos de Enfermería</title>
   <link rel="stylesheet" href="estilos.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 <body>
   <header>
-    <h1><i class="fas fa-stethoscope"></i> Sistema DIE – Diagnósticos de Enfermería</h1>
-    <nav>
-      <button onclick="mostrarSeccion('nanda')"><i class="fas fa-notes-medical"></i> DIE (NANDA)</button>
-      <button onclick="mostrarSeccion('noc')"><i class="fas fa-check-circle"></i> REE (NOC)</button>
-      <button onclick="mostrarSeccion('nic')"><i class="fas fa-hand-holding-medical"></i> PIE (NIC)</button>
-    </nav>
+    <h1>🩺 Sistema DIE – Diagnósticos de Enfermería</h1>
   </header>
 
   <main>
-    <section id="nanda" class="seccion">
-      <h2>DIE - Diagnósticos de Enfermería (NANDA)</h2>
-      <select id="filtroDominio" onchange="buscar('nanda')">
-        <option value="">Todos los dominios</option>
-        <option value="Nutrición">Nutrición</option>
-        <option value="Seguridad">Seguridad</option>
-      </select>
-      <input type="text" placeholder="Buscar diagnóstico..." oninput="buscar('nanda', this.value)">
-      <ul id="lista-nanda"></ul>
+    <section class="busqueda">
+      <input type="text" id="busquedaInput" placeholder="Buscar diagnóstico, resultado o intervención..." />
     </section>
 
-    <section id="noc" class="seccion" style="display: none;">
-      <h2>REE - Resultados Esperados en Enfermería (NOC)</h2>
-      <input type="text" placeholder="Buscar resultado..." oninput="buscar('noc', this.value)">
-      <ul id="lista-noc"></ul>
-    </section>
+    <section id="resultados">
+      <div id="nandaResultados">
+        <h2>🩺 Diagnósticos NANDA</h2>
+        <ul class="resultado-lista" id="nandaLista"></ul>
+      </div>
 
-    <section id="nic" class="seccion" style="display: none;">
-      <h2>PIE - Plan de Intervenciones de Enfermería (NIC)</h2>
-      <input type="text" placeholder="Buscar intervención..." oninput="buscar('nic', this.value)">
-      <ul id="lista-nic"></ul>
+      <div id="nocResultados">
+        <h2>📈 Resultados Esperados NOC</h2>
+        <ul class="resultado-lista" id="nocLista"></ul>
+      </div>
+
+      <div id="nicResultados">
+        <h2>🧪 Intervenciones NIC</h2>
+        <ul class="resultado-lista" id="nicLista"></ul>
+      </div>
     </section>
   </main>
 
