@@ -18,28 +18,6 @@ header h1 {
   font-size: 24px;
 }
 
-nav {
-  margin-top: 10px;
-}
-
-nav button {
-  background-color: white;
-  color: #007bff;
-  border: 2px solid #007bff;
-  padding: 8px 15px;
-  margin: 5px;
-  border-radius: 8px;
-  cursor: pointer;
-  font-weight: bold;
-  transition: all 0.3s ease;
-}
-
-nav button:hover {
-  background-color: #0056b3;
-  color: white;
-  transform: scale(1.05);
-}
-
 main {
   padding: 30px 20px;
   max-width: 900px;
@@ -68,6 +46,12 @@ input[type="text"], select {
   outline: none;
 }
 
+/* Ocultar resultados por defecto */
+#resultados {
+  display: none;
+}
+
+/* Lista sin estilo de viñetas */
 ul {
   list-style: none;
   padding: 0;
@@ -75,7 +59,10 @@ ul {
 
 ul li {
   padding: 12px;
-  border-bottom: 1px solid #eee;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
   transition: background 0.2s;
 }
 
@@ -83,6 +70,16 @@ ul li:hover {
   background-color: #f1f9ff;
 }
 
+/* Resultados con detalle */
+.resultado-lista li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f8f8f8;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+/* Estilos para detalles desplegables (opcional) */
 .item-header {
   cursor: pointer;
   display: flex;
